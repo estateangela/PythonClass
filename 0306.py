@@ -1,8 +1,7 @@
-i = 3
-mStr = "hello World"
+var = 3
+print(var)
 
-print(i)
-print(mStr)
+var = "test"
+print(var)
 
-i=10
-print(i)
+print("var=",10,"test",1,2,3,4,5)
