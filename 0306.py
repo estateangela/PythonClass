@@ -1,7 +1,7 @@
-var = 3
-print(var)
+x = int(input("請輸入第一個數字="))
+y = int(input("請輸入第二個數字="))
 
-var = "test"
-print(var)
-
-print("var=",10,"test",1,2,3,4,5)
+print('x+y=',x+y)
+print('x-y=',x-y)
+print('x*y=',x*y)
+print('x//y=',x//y)
