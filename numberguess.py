@@ -13,14 +13,15 @@ print(f'答案={A}')
 
 print('---------')
 
-x = int(input("請輸入數字:"))
 
-while x < A  :
-    print('再大一點')
+while True  :
     x = int(input("請輸入數字:"))
-    if x > A  :
+    if x <A:
+     print('再大一點')
+    
+    elif x > A  :
         print('再小一點')
-        x = int(input("請輸入數字:"))
-        if x == A :
+        
+    else:
            print('BINGO')
            break
