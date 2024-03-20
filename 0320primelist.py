@@ -9,3 +9,11 @@ for num in range(100,1001):
     print(num) 
 
 
+#-------
+
+for num in range(100,1001):
+  for n in range(2,num):
+    if num % n ==0:
+      break
+  else:
+    print(num)

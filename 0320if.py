@@ -12,7 +12,8 @@ if isPrime:
     print(num)
 print('end-of-program')
 
-#==
+#等同
+
 num = 20
 n=2
 
@@ -21,9 +22,6 @@ while n<num:
         break
     n +=1
 else:
-    print('here is else')
-if isPrime:
     print(num)
-print('end-of-program')
 
 
