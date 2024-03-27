@@ -42,3 +42,11 @@ for i in range(n,0,-1):
     for j in range(i): #i=1 => for j in range(4): => [0,1,2,3]
         print('*',end=' ')
     print()
+    
+print('--------------')
+#python限定快速寫法
+
+for i in range(n,0,-1):
+    print("" * (n - i)+ '*' * i)
+    
+    
